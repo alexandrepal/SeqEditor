@@ -18,17 +18,17 @@ SeqEditor is a CustomTkinter-based GUI that lets you write simple sequential/com
 ## `.seq` Syntax
 ### Pin definitions
 - PIN <name> = <number> where <name> starts with a letter, can have digits and the '_'
-- Examples: 
+- Examples:  
 pin Y=8  
 PIN A_3 = 9  
 PIN Q0 = 6  
 ### Combinational logic
 - Standard logic using NOT, AND, OR and XOR
-- Examples:
+- Examples:  
 Y = AND(A, NOT(Q1))
 ### Sequential logic (D flip-flop input)
 - Registered variables use <name> starting with a Q
-- Examples: 
+- Examples:  
 Q0.D = NOT(Q0)  
 Q1.D = XOR(Q0, A)  
 

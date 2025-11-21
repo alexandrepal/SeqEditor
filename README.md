@@ -32,8 +32,13 @@ Y = AND(A, NOT(Q1))
 Q0.D = NOT(Q0)
 Q1.D = XOR(Q0, A)
 
+## Screenshot
+![SeqEditor UI](images/SeqEditor.png)
+
 ## Running from source
 ```bash
 pip install customtkinter
 python seq_editor.py
- 
+
+
+

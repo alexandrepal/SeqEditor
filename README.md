@@ -33,7 +33,7 @@ Q0.D = NOT(Q0)
 Q1.D = XOR(Q0, A)  
 
 ## Screenshot
-![SeqEditor UI](images/SeqEditor.png)
+![SeqEditor UI](images/SeqEditor.png?raw=1)
 
 ## Running from source
 ```bash
